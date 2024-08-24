@@ -1,7 +1,8 @@
 from .stt import STT, SpeechStream
 from .version import __version__
+from .tts import TTS
 
-__all__ = ["STT", "SpeechStream", "__version__"]
+__all__ = ["STT", "SpeechStream", "__version__", "TTS"]
 
 
 from livekit.agents import Plugin

@@ -75,3 +75,19 @@ DeepgramLanguages = Literal[
     "ru",
     "th",
 ]
+
+TTSModels = Literal[
+    "aura-asteria-en",
+    "aura-orpheus-en",
+    "aura-angus-en",
+    "aura-athena-en",
+    "aura-helios-en",
+    "aura-hera-en",
+    "aura-luna-en",
+    "aura-orion-en",
+    "aura-perseus-en",
+    "aura-stella-en",
+    "aura-zeus-en"
+]
+
+TTSVoices = TTSModels
